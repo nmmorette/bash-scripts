@@ -21,3 +21,14 @@ Use:
 Use: 
 ./scannet.sh 192.168.1 80
 ./scannet.sh 192.168.0 21
+
+
+###webrecon.sh###
+
+./webrecon.sh businesscorp.com.br
+./webrecon.sh google.com.br
+
+
+###sdnsrecon.sh###
+
+/dnsrecon.sh example.com
