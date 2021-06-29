@@ -1,6 +1,11 @@
 #!/bin/bash
-#sript para recon de diretorios em sites
-for palavra in $(cat /home/venomsnake/Documents/wordlists/master.txt)
+###webrecon.sh
+###---------------------------------------------------------------
+### Objective: Webrecon/fuzz directories into websites 
+###---------------------------------------------------------------
+### Author: Natan Morette
+###---------------------------------------------------------------
+for palavra in $(cat "INPUT YOUR WORDLIST HERE, download on here:https://github.com/nmmorette/worldlist)
 do
 resp=$(curl -s -H "User-Agent: SimasTurbando " -o /dev/null -w "%{http_code}" $1/$palavra/)
 if  [[ $resp == "200" ]]
