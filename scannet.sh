@@ -1,9 +1,16 @@
 #!/bin/bash
+###scannet.sh
+###---------------------------------------------------------------
+### Objective: Scan all network for a specify open port
+### need root access
+###---------------------------------------------------------------
+### Author: Natan Morette
+###---------------------------------------------------------------
 if [ "$1" == "" ]
 then 
-	echo "DESEC SECURITY - PORTSCAN NETWORK"
-	echo "Modo de uso: $0 REDE PORTA"
-	echo "Exemplo: $0 172.16.1 80"
+	echo "PORTSCAN NETWORK"
+	echo "MUse mode : $0 REDE PORTA"
+	echo "Example: $0 172.16.1 80"
 else
 for ip in  {1..254};
 do
