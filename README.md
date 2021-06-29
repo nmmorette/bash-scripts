@@ -2,7 +2,7 @@
 
 ###parsing1.sh###
 
-Scritp for web information gathering
+Script for web information gathering
 
 Use: 
 
