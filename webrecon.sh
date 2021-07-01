@@ -1,7 +1,7 @@
 #!/bin/bash
 ###webrecon.sh
 ###---------------------------------------------------------------
-### Objective: Webrecon/fuzz directories into websites 
+### Objective: Webrecon/fuzz directories in websites 
 ###---------------------------------------------------------------
 ### Author: Natan Morette
 ###---------------------------------------------------------------
