@@ -31,4 +31,8 @@ Use:
 
 ###sdnsrecon.sh###
 
-/dnsrecon.sh example.com
+./dnsrecon.sh example.com
+
+
+###metafind.sh###
+./metafin.sh www.example.com pdf
