@@ -36,3 +36,7 @@ Use:
 
 ###metafind.sh###
 ./metafin.sh www.example.com pdf
+
+###dnstransfer.sh###
+
+./dnstransfer.sh www.example.com
